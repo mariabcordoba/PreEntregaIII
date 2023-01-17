@@ -65,3 +65,234 @@ body{
         padding-right: 30px;
     }
 }
+
+
+/* Inicio shop */
+#shop{
+    font-family: c.$fonts;
+    font-size: 17px;
+    color: map-get(c.$colors,"letterings_1");
+    padding-top: 200px;
+    padding-left: 15px; 
+    padding-right: 15px; 
+    text-align: left;     
+    width: auto;
+}
+
+@media screen and (min-width:768px){
+    #shop{
+        font-family: c.$fonts;
+        font-size: 17px;
+        color: map-get(c.$colors,"letterings_1");
+        padding-top: 200px;
+        padding-left: 15px; 
+        padding-right: 15px; 
+        text-align: left;     
+        width: auto;        
+    }  
+}
+
+.shop__container{
+    display: flex;
+    flex-direction: column;
+    width: auto;        
+}
+
+.title__shop{
+    margin: 5px;
+}
+
+.paragraph{
+    width: auto;
+    padding-top: 0px;
+    margin: 5px;
+}
+
+.lip__container,
+.barrier__container,
+.glazing__container,
+.kit__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width:768px){
+    .lip__container,
+    .barrier__container,
+    .glazing__container,
+    .kit__container{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        align-items: flex-start;        
+    }
+}
+
+.lip__container img,
+.barrier__container img,
+.glazing__container img,
+.kit__container img{
+    width: 360px;
+}
+
+.lip__text,
+.barrier__text,
+.glazing__text,
+.kit__text{
+    text-align: center;    
+}
+
+@media screen and (min-width:768px){
+    .lip__text,
+    .barrier__text,
+    .glazing__text,
+    .kit__text{
+        text-align:justify;        
+        padding-left: 10px;
+        padding-right: 10px;        
+        margin: 0;
+    }
+}
+
+.user__add__cart:hover{
+    color:map-get(c.$colors,"color_hover");
+    border-color: map-get(c.$colors,"color_hover");
+}
+
+.user__add__cart{
+    width: auto;
+    height: 40px;
+    cursor: pointer;
+    font-family: c.$fonts;
+    background-color: map-get(c.$colors,"background");
+    border-color: map-get(c.$colors,"border_color");
+    border-width: 1px;    
+    border-radius: 3px;
+    margin: auto; 
+}
+
+@media screen and (min-width:768px){
+    .user__add__cart{
+        width: auto;
+        height: 40px;
+        cursor: pointer;
+        font-family: c.$fonts;
+        background-color:map-get(c.$colors,"background");
+        border-color: map-get(c.$colors,"border_color");
+        border-width: 1px;
+        margin-top: 2%;        
+        margin-left: 80%;
+        margin-right: 20%;
+    }
+}
+
+/* Inicio about us */
+.aboutus__container{
+    font-family: c.$fonts;
+    font-size: 15px;    
+    color: map-get(c.$colors,"letterings_1");
+    padding-top: 220px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: auto;
+}
+
+@media screen and (min-width:768px) {
+    .aboutus__container{       
+        font-size: 20px;       
+    }
+}
+
+.aboutus__container h3:hover{
+    color: #E05263;
+}
+
+/* Inicio account */
+#account{
+    background-color: #e5e7e8de;
+    padding-top: 250px;
+    padding-bottom: 100px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+}
+
+.login__container{
+    font-family: monospace;
+    color: #585759;
+    margin: auto;
+}
+
+.login__input__container{
+    width: 100%;
+    display: grid;
+    gap: 10px;
+}
+
+
+.login__input__container input{
+    font-family: inherit;
+    font-size: 18px;
+    color: #585759;
+
+    margin: auto;
+}
+
+.user__input{
+    border-style: none;
+    width: 320px;
+}
+
+.user__submit{
+    width: 100px;
+    cursor:pointer;
+}
+
+.pss__forgot{
+    cursor: pointer;
+}
+
+.pss__forgot:hover{
+    color: #E05263;
+}
+
+.sign__up{
+    cursor: pointer;
+}
+
+.sign__up:hover{
+    color: #E05263;
+}
+
+/* Inicio cart */
+#cart{
+    font-family: monospace;
+    font-size: 18px;
+    color: #585759;
+    padding-top: 200px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 180px;
+}
+
+.cart__container h1{
+    text-align: center;
+}
+
+.continue__shop{
+    text-align: center;
+}
+
+.to__shop{
+    text-decoration: underline;
+    color: #585759;
+}
+
+.to__shop:hover{
+    color: #E05263;
+}
