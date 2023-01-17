@@ -1,0 +1,39 @@
+@use '_commons' as c;
+
+/* Inicio del footer */
+.footer{
+    width: 100%;
+}
+
+.footer ul{    
+    display: flex;
+    flex-direction: column;
+    font-family: c.$fonts;
+    font-size: 18px;    
+    list-style: none;
+    color: map-get(c.$colors,"letterings_1");
+    text-align: center;    
+    padding: 0px;
+
+}
+
+@media screen and (min-width:768px){
+    .footer ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-family:c.$fonts;
+        font-weight: bold;
+        font-size: 14px;    
+        list-style: none;
+        color: map-get(c.$colors,"letterings_1");
+        text-align: center;  
+        padding-left: 0px;
+    }
+}
+
+.footer ul li:hover{
+    cursor: pointer;
+    color: map-get(c.$colors,"color_hover");     
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+}
