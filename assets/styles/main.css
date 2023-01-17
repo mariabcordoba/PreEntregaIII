@@ -326,7 +326,7 @@ body {
 }
 
 .login__container {
-  font-family: monospace;
+  font-family: "Roboto", sans-serif;
   color: #585759;
   margin: auto;
 }
@@ -338,7 +338,7 @@ body {
 }
 
 .login__input__container input {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #585759;
   margin: auto;
@@ -372,7 +372,7 @@ body {
 
 /* Inicio cart */
 #cart {
-  font-family: monospace;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #585759;
   padding-top: 200px;

@@ -209,7 +209,7 @@ body{
 }
 
 .aboutus__container h3:hover{
-    color: #E05263;
+    color: map-get(c.$colors,"color_hover2");
 }
 
 /* Inicio account */
@@ -223,8 +223,8 @@ body{
 }
 
 .login__container{
-    font-family: monospace;
-    color: #585759;
+    font-family: c.$fonts;
+    color: map-get(c.$colors,"letterings_1");
     margin: auto;
 }
 
@@ -236,9 +236,9 @@ body{
 
 
 .login__input__container input{
-    font-family: inherit;
+    font-family: c.$fonts;
     font-size: 18px;
-    color: #585759;
+    color: map-get(c.$colors,"letterings_1");
 
     margin: auto;
 }
@@ -258,7 +258,7 @@ body{
 }
 
 .pss__forgot:hover{
-    color: #E05263;
+    color: map-get(c.$colors,"color_hover2");
 }
 
 .sign__up{
@@ -266,14 +266,14 @@ body{
 }
 
 .sign__up:hover{
-    color: #E05263;
+    color: map-get(c.$colors,"color_hover2");
 }
 
 /* Inicio cart */
 #cart{
-    font-family: monospace;
+    font-family: c.$fonts;
     font-size: 18px;
-    color: #585759;
+    color: map-get(c.$colors,"letterings_1");
     padding-top: 200px;
     padding-left: 12px;
     padding-right: 12px;
@@ -290,9 +290,9 @@ body{
 
 .to__shop{
     text-decoration: underline;
-    color: #585759;
+    color: map-get(c.$colors,"letterings_1");
 }
 
 .to__shop:hover{
-    color: #E05263;
+    color: map-get(c.$colors,"color_hover2");
 }
